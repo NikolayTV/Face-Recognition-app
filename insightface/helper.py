@@ -166,3 +166,13 @@ def detect_first_stage(img, net, scale, threshold):
 
 def detect_first_stage_warpper( args ):
     return detect_first_stage(*args)
+
+def resize_by_height(img, new_height):
+    '''
+    In: image, new_height
+    Out: image with new height and scaled width
+    '''
+    height, width = img.shape[:2]
+    scale_factor = new_height / height
+    img = cv2.resize(img, None, fx=scale_factor, fy=scale_factor, interpolation=cv2.INTER_AREA)
+    return img, scale_factor
