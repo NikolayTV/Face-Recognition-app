@@ -1,0 +1,7 @@
+logs/images/*
+logs/tables/*
+logs/images/*
+
+!logs/.gitkeep 
+!logs/images/.gitkeep 
+!logs/tables/.gitkeep 
