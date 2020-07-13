@@ -1,4 +1,4 @@
-gpu num: 4
+gpu num: 4 
 num_layers 1
 image_size [112, 112]
 num_classes 85742

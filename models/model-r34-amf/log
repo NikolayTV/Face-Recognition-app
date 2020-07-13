@@ -1,6 +1,6 @@
 gpu num: 4
 num_layers 34
-image_size [112, 112]
+image_size [112, 112] 
 num_classes 85164
 Called with argument: Namespace(batch_size=512, beta=1000.0, beta_freeze=0, beta_min=5.0, center_alpha=0.5, center_scale=0.003, ckpt=1, coco_scale=8.676161173096705, ctx_num=4, data_dir='/cache/jiaguo/faces_ms1mrf_112x112', easy_margin=0, emb_size=512, end_epoch=100000, gamma=0.12, image_channel=3, image_h=112, image_w=112, images_per_identity=0, incay=0.0, loss_type=4, lr=0.1, lr_steps='60000,90000,110000', margin=2, margin_m=0.5, margin_s=64.0, margin_verbose=2000, max_steps=0, mom=0.9, network='r34', num_classes=85164, num_layers=34, patch='0_0_96_112_0', per_batch_size=128, power=1.0, prefix='../model-r34-amf/model', pretrained='', rand_mirror=1, rescale_threshold=0, retrain=False, scale=0.9993, target='lfw,cfp_ff,cfp_fp,agedb_30', triplet_alpha=0.3, triplet_bag_size=3600, triplet_max_ap=0.0, use_deformable=0, use_val=False, verbose=2000, version_input=1, version_output='E', version_se=0, version_unit=3, wd=0.0005)
 init resnet 34
