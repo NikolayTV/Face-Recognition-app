@@ -2,6 +2,8 @@
 [Insightface](https://github.com/deepinsight/insightface)
 
 # How to install
+(Take a note, it is using git lfs for large model files)
+* git lfs install
 * git clone https://github.com/NikolayTV/Face-Recognition-app
 * pip install -r requirements.txt
 * Create as many folders with your images as you want in data/People
